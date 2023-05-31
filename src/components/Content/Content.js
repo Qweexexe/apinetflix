@@ -22,7 +22,7 @@ function Content() {
 
     return (
         <div className="content_wrapper">
-            {data.map(el => (<Element
+            { data && data.map(el => (<Element
                 key={el.id}
                 name={el.l}
                 scenarist={el.s}
