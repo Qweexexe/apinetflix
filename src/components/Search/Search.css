@@ -1,0 +1,16 @@
+.wrapper_search_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search_input{
+    height: 40px;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background: rgba(50, 50, 50, 1);;
+}
+

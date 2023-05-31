@@ -1,0 +1,37 @@
+
+.header_wrapper{
+    display: flex;
+    justify-content: center;
+    background: black;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.header_wrapper_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.header_wrapper_inner_div{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 250px;
+}
+
+.header_logo{
+    margin: 15px 0 0 50px;
+    width: 150px;
+    height: auto;
+    z-index: 0;
+}
+
+.header_wrapper_inner_div{
+    display: flex;
+}
+
+.header_wrapper_inner_text{
+    color: white;
+
+}
